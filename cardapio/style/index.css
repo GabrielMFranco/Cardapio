@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    background-color: #040D22;
+}
+header{
+    background: black;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    h1{
+        align-self: center;
+        color: white;
+        font-size: 59px;
+        font-family: "Lilita One", serif;
+    }
+}
+
+
+.cards{
+    display: grid;
+    padding-inline: 40px;
+    justify-items: center;
+    align-items: center;
+    padding-block: 50px;
+    div{
+        h2{
+            font-family: "Roboto", serif;
+            background-image: linear-gradient(to right, rgb(149, 114, 252), rgb(67, 231, 173), rgb(226, 212, 92));
+            background-clip:text;
+            color: transparent;
+            font-size: 40px;
+
+            justify-self: center;
+        }
+        p{
+            color: whitesmoke;
+            font-family: "Pacifico", serif;
+            font-size: 20px;
+            justify-self: center;
+            margin-bottom: 15px;
+        }
+    }
+
+    .image-container{
+        flex: 1;
+        width: 100%;
+        max-width: 500px;
+        align-items: center;
+        overflow: hidden;
+        border-radius: 25px;
+        img{
+            object-fit: cover;
+            height: 667px;
+            width: 100%;
+        }
+    }
+}
