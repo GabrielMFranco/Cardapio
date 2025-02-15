@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body, html{
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    background-color: #040D22;
+}
+
+header{
+    background: black;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    h1{
+        align-self: center;
+        color: white;
+        font-size: 59px;
+        font-family: "Lilita One", serif;
+    }
+}
