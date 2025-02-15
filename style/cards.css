@@ -41,7 +41,7 @@
 
 @media (width < 1050px){
     .cards{
-
+        max-width: 400px;
     }
     .image-container{
         img{
