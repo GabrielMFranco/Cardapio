@@ -7,12 +7,17 @@
 body, html{
     height: 100vh;
     width: 100vw;
-    background-color: #040D22;
+    background-color: #010307;
+    overflow-x: hidden;
 }
 
 main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+    box-sizing: border-box;
 }
 
 header{
@@ -30,7 +35,8 @@ header{
 
 @media (width < 1050px) {
     main{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
     }
 }
