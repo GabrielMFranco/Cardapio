@@ -1,6 +1,6 @@
 .cards{
     display: grid;
-    padding-inline: 40px;
+    padding-inline: 80px;
     justify-items: center;
     align-items: center;
     padding-block: 50px;
@@ -36,4 +36,7 @@
             width: 100%;
         }
     }
+}
+@media (min-width: 1050px){
+
 }

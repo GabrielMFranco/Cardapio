@@ -7,10 +7,12 @@
 body, html{
     height: 100vh;
     width: 100vw;
+    background-color: #040D22;
 }
 
 main{
-    background-color: #040D22;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 header{
@@ -22,6 +24,13 @@ header{
         align-self: center;
         color: white;
         font-size: 59px;
-        font-family: "Lilita One", serif;
+        font-family: "Lilita One", serif; 
+    }
+}
+
+@media (width < 1050px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
 }

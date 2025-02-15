@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    justify-content: center; 
+    overflow-x: auto;
+    scrollbar-width: none;
+    touch-action: pan-x;
+
+    background-color: #040D22;
+    margin-block: 20px;
+    gap: 5px;
+
+    button{
+        border: none;
+        background-color: transparent;
+
+        :hover{
+            background-color: greenyellow;
+            border-radius: 20px;
+        }
+    }
+
+    img{
+        border: none;
+        width: 100px;
+        height: 100px;
+    }
+}
